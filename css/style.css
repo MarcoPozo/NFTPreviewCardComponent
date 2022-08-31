@@ -198,8 +198,13 @@ span {
   color: var(--cyan);
 }
 
-/* @media (max-width: 375px) {
+@media (max-width: 375px) {
+  .container {
+    display: block;
+    padding: 0.1px;
+  }
 
-
-  
-} */
+  .card {
+    margin: 40px auto;
+  }
+}
